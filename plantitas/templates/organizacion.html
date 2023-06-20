@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organización</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'img/logo para mi .png'%}" />
+    <link href="{% static 'css/bootstrap.min.css'%}" rel="stylesheet">
+    <link href="{% static 'css/estilos.css'%}" rel="stylesheet">
+</head>
+<body>
+    <br><br>
+    <main role="main" class="container">    
+        <div class="col-md">
+            <div class="card">
+                <div class="card-body"><img src="{% static 'img/mision.png'%}" width="100px" height="100px">
+                    <h3 class="card-title">Mision</h3>
+                    <p class="card-text"> 
+                        Nuestra misión es poder hacer que unos vecinos puedan vender de una manera más fácil y rápida y así enfrentar la alta demanda que ellos enfrentan.
+                    </p>
+                </div>
+            </div>
+        </div> 
+        <br><br>
+        <div class="col-md">
+            <div class="card">
+                <div class="card-body"><img src="{% static 'img/vicion.png'%}" width="100px" height="100px">
+                    <h3 class="card-title">Vision</h3>
+                    <p class="card-text"> 
+                        La visión que tenemos es crear una página web en la que muchas personas puedan comprar y así que los vecinos no colapsen con tantos pedidos.<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="col-md">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Objetivo</h3>
+                    <p class="card-text"> 
+                        El siguiente objetivo en pocas palabras todo esto es para ayudar a una fundación sin fines de lucro, y gracias el apoyo de toda la gente pudimos crear una página 
+                        para así poder trabajar todos los pedidos que nos realizan.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="video-responsive">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sA9Gd9tEfW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </main>
+    <br><br>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
+{% endblock %}
